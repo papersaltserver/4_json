@@ -1,16 +1,15 @@
 import json
 import sys
-from pprint import pprint
 
 
 def load_data(filepath):
-    with open(filepath) as f:
-        my_json = json.load(f)
+    with open(filepath) as json_file:
+        my_json = json.load(json_file)
     return my_json
 
 
 def pretty_print_json(json_data):
-    pprint(json_data)
+    print(json.dumps(json_data, indent=4))
 
 
 if __name__ == '__main__':
