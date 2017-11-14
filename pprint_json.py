@@ -9,8 +9,8 @@ def load_data(filepath):
     return my_json
 
 
-def pretty_print_json(data):
-    pprint(data)
+def pretty_print_json(json_data):
+    pprint(json_data)
 
 
 if __name__ == '__main__':
