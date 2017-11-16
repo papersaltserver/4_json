@@ -184,6 +184,7 @@ $ python pprint_json.py <path to file>
 ]
 
 ```
+Получть данные для теста можно в любом открытом api, например https://data.mos.ru/
 
 # Project Goals
 
